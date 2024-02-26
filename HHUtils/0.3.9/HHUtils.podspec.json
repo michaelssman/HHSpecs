@@ -1,0 +1,22 @@
+{
+  "name": "HHUtils",
+  "version": "0.3.9",
+  "summary": "A short description of HHUtils.",
+  "description": "基础组件",
+  "homepage": "https://github.com/michaelssman/HHUtils",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "michaelstrongself@outlook.com": "michaelstrongself@outlook.com"
+  },
+  "source": {
+    "git": "https://github.com/michaelssman/HHUtils.git",
+    "tag": "0.3.9"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "HHUtils/Classes/**/*.{h,m,swift}"
+}
