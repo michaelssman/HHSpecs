@@ -1,6 +1,6 @@
 {
   "name": "HHUtils",
-  "version": "0.3.8",
+  "version": "0.4.5",
   "summary": "A short description of HHUtils.",
   "description": "基础组件",
   "homepage": "https://github.com/michaelssman/HHUtils",
@@ -13,10 +13,27 @@
   },
   "source": {
     "git": "https://github.com/michaelssman/HHUtils.git",
-    "tag": "0.3.8"
+    "tag": "0.4.5"
   },
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "HHUtils/Classes/**/*.{h,m,swift}"
+  "source_files": "HHUtils/Classes/**/*.{h,m,swift}",
+  "dependencies": {
+    "Alamofire": [
+      "~> 5.0"
+    ],
+    "RxSwift": [
+      "6.5.0"
+    ],
+    "RxCocoa": [
+      "6.5.0"
+    ],
+    "SnapKit": [
+      "5.6.0"
+    ],
+    "MBProgressHUD": [
+      "1.2.0"
+    ]
+  }
 }
