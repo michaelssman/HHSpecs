@@ -1,0 +1,39 @@
+{
+  "name": "HHUtils",
+  "version": "0.4.7",
+  "summary": "A short description of HHUtils.",
+  "description": "基础组件",
+  "homepage": "https://github.com/michaelssman/HHUtils",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "michaelstrongself@outlook.com": "michaelstrongself@outlook.com"
+  },
+  "source": {
+    "git": "https://github.com/michaelssman/HHUtils.git",
+    "tag": "0.4.7"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "HHUtils/Classes/**/*.{h,m,swift}",
+  "dependencies": {
+    "Alamofire": [
+      "~> 5.0"
+    ],
+    "RxSwift": [
+      "6.5.0"
+    ],
+    "RxCocoa": [
+      "6.5.0"
+    ],
+    "SnapKit": [
+      "5.6.0"
+    ],
+    "MBProgressHUD": [
+      "1.2.0"
+    ]
+  }
+}
